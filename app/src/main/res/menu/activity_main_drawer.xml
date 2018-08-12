@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sobreIgreja"
+            android:icon="@drawable/ic_igreja"
+            android:title="Sobre a IPCN"/>
+
+        <item
+            android:id="@+id/nav_simbolo_fe"
+            android:icon="@drawable/ic_simbolo_fe"
+            android:title="Símbolos de Fé"/>
+
+        <item
+            android:id="@+id/nav_lideranca_ipcn"
+            android:icon="@drawable/ic_lideranca_ipcn"
+            android:title="Liderança"/>
+
+        <item
+            android:id="@+id/nav_soc_interna"
+            android:icon="@drawable/ic_soc_interna"
+            android:title="Sociedade Internas"/>
+
+        <item
+            android:id="@+id/nav_pregacoes_ipcn"
+            android:icon="@drawable/ic_pregacoes_ipcn"
+            android:title="Pregações"/>
+
+        <item
+            android:id="@+id/nav_boletim_ipcn"
+            android:icon="@drawable/ic_boletim_ipcn"
+            android:title="Boletins"/>
+
+        <item
+            android:id="@+id/nav_radio_ipb"
+            android:icon="@drawable/ic_radio_ipb"
+            android:title="Rádio IPB"/>
+
+        <item
+            android:id="@+id/nav_biblia_ipcn"
+            android:icon="@drawable/ic_biblia_ipcn"
+            android:title="Bíblia IPCN"/>
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

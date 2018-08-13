@@ -15,11 +15,6 @@
             android:title="Símbolos de Fé"/>
 
         <item
-            android:id="@+id/nav_lideranca_ipcn"
-            android:icon="@drawable/ic_lideranca_ipcn"
-            android:title="Liderança"/>
-
-        <item
             android:id="@+id/nav_soc_interna"
             android:icon="@drawable/ic_soc_interna"
             android:title="Sociedade Internas"/>
@@ -34,37 +29,78 @@
             android:icon="@drawable/ic_boletim_ipcn"
             android:title="Boletins"/>
 
-        <item
-            android:id="@+id/nav_radio_ipb"
-            android:icon="@drawable/ic_radio_ipb"
-            android:title="Rádio IPB"/>
-
-        <item
-            android:id="@+id/nav_biblia_ipcn"
-            android:icon="@drawable/ic_biblia_ipcn"
-            android:title="Bíblia IPCN"/>
-
-
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Camera" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
     </group>
 
-    <item android:title="Communicate">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Liderança">
+         <menu>
+             <item
+                 android:id="@+id/nav_presbiteros"
+                 android:icon="@drawable/ic_check_black_24dp"
+                 android:title="Presbíteros"/>
+
+             <item
+                 android:id="@+id/nav_diaconos"
+                 android:icon="@drawable/ic_check_black_24dp"
+                 android:title="Diáconos">
+
+             </item>
+
+         </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Recursos">
+            <menu>
+                <item
+                    android:id="@+id/nav_radio_ipb"
+                    android:icon="@drawable/ic_radio_ipb"
+                    android:title="Rádio IPB"/>
+
+                <item
+                    android:id="@+id/nav_biblia_ipcn"
+                    android:icon="@drawable/ic_biblia_ipcn"
+                    android:title="Bíblia IPCN">
+
+                </item>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <item android:title="Canais de comunicação">
         <menu>
+
+            <item
+                android:id="@+id/nav_site_ipcn"
+                android:icon="@drawable/ic_site_ipcn"
+                android:title="Website IPCN"/>
+
+            <item
+                android:id="@+id/nav_blog_ipcn"
+                android:icon="@drawable/ic_blog"
+                android:title="Blog IPCN"/>
+
+            <item
+                android:id="@+id/nav_instagram"
+                android:title="Instagram - @ipresbiterianacn"/>
+
+            <item
+                android:id="@+id/nav_facebook"
+                android:title="Facebook - @ipresbiterianacn"/>
+
+            <item
+                android:id="@+id/youtube"
+                android:title="YouTube - @ipresbiterianacn"/>
+
+
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"

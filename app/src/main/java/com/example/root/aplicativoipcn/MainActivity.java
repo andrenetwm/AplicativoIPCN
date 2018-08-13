@@ -82,11 +82,23 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_sobreIgreja) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_simbolo_fe) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_soc_interna) {
+
+        } else if (id == R.id.nav_pregacoes_ipcn) {
+
+        } else if (id == R.id.nav_boletim_ipcn) {
+
+        } else if (id == R.id.nav_radio_ipb) {
+
+        } else if (id == R.id.nav_biblia_ipcn) {
+
+        } else if (id == R.id.nav_presbiteros) {
+
+        } else if (id == R.id.nav_diaconos) {
 
         } else if (id == R.id.nav_share) {
 

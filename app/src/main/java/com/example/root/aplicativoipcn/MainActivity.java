@@ -1,5 +1,7 @@
 package com.example.root.aplicativoipcn;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,9 +14,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +28,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -100,9 +107,36 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_diaconos) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_site_ipcn) {
+            String url = "http://www.ipcn.org.br";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
 
-        } else if (id == R.id.nav_send) {
+
+        } else if (id == R.id.nav_blog_ipcn) {
+            String url = "http://blog.ipcn.org.br";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
+
+        } else if (id == R.id.nav_instagram) {
+            String url = "https://www.instagram.com/ipresbiterianacn";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
+
+        } else if (id == R.id.nav_facebook) {
+            String url = "https://www.facebook.com/ipresbiterianacn";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
+
+        } else if (id == R.id.nav_youtube) {
+            String url = "https://www.youtube.com/ipresbiterianacn";
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
 
         }
 

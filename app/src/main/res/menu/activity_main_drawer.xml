@@ -75,41 +75,36 @@
 
     </group>
 
-    <item android:title="Canais de comunicação">
-        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Canais de comunicação">
+            <menu>
+                <item
+                    android:id="@+id/nav_site_ipcn"
+                    android:icon="@drawable/ic_site_ipcn"
+                    android:title="Website IPCN"/>
 
-            <item
-                android:id="@+id/nav_site_ipcn"
-                android:icon="@drawable/ic_site_ipcn"
-                android:title="Website IPCN"/>
+                <item
+                    android:id="@+id/nav_blog_ipcn"
+                    android:icon="@drawable/ic_blog"
+                    android:title="Blog IPCN"/>
 
-            <item
-                android:id="@+id/nav_blog_ipcn"
-                android:icon="@drawable/ic_blog"
-                android:title="Blog IPCN"/>
+                <item
+                    android:id="@+id/nav_instagram"
+                    android:icon="@drawable/instagram_logo"
+                    android:title="Instagram - @ipresbiterianacn"/>
 
-            <item
-                android:id="@+id/nav_instagram"
-                android:title="Instagram - @ipresbiterianacn"/>
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:icon="@drawable/facebook_logo_button"
+                    android:title="Facebook - @ipresbiterianacn"/>
 
-            <item
-                android:id="@+id/nav_facebook"
-                android:title="Facebook - @ipresbiterianacn"/>
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@drawable/youtube_logotype"
+                    android:title="YouTube - @ipresbiterianacn"/>
+            </menu>
 
-            <item
-                android:id="@+id/youtube"
-                android:title="YouTube - @ipresbiterianacn"/>
-
-
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
-
+        </item>
+    </group>
 </menu>
